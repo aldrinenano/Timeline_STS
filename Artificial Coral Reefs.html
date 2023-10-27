@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+        button {
+  background: #fff;
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  width: 120px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: skew(-21deg);
+}
+
+span {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: rgb(20, 20, 20);
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: #fff;
+}
+
+button:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+}
+body {
+  background-color: #dbe2e9;
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: white;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 61px 7px #5e849c40;
+  padding: 50px 20px;
+  border-radius: 20px;
+}
+</style>  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artificial Coral Reefs</title>
+</head>
+<body>
+      <a href="C:\Users\admin\Desktop\samp\Fish Sauce (Patis).html">
+        <button><span>Previous</span></button></a>
+        <a href="C:\Users\admin\Desktop\samp\index.html">
+          <button><span>Home</span></button></a>
+  <section>
+    <div class="container">
+      <div class="header">
+        <h1 class="logo"><center>Artificial Coral Reefs</center></h1>
+        <center><p>The "coral rejuvenation" project led by Dr. Laura David focuses on the development of artificial coral reefs to help protect marine life and coastal communities.
+          Marine Ecosystem Restoration: Artificial coral reefs have been instrumental in the restoration of damaged or degraded marine ecosystems. They provide a substrate for the 
+          attachment and growth of coral species, which helps in rehabilitating damaged reefs. This has advanced our understanding of marine ecology and restoration methods.
+          Biodiversity Enhancement: Artificial reefs serve as habitats for a wide variety of marine species, including fish, invertebrates, and algae. By creating new habitats, they contribute 
+          to increased biodiversity in marine environments. This research has expanded our knowledge of species interactions and ecological dynamics.
+        </p></center>
+      </div>
+    </section>
+  </body>
+</html>
+
